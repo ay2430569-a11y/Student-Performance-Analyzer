@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local SQLite database
+students.db
+*.sqlite
+*.sqlite3
+
+# Generated outputs (the program recreates these)
+output/*.png
+output/*.txt
+output/cleaned_students.csv
+!output/.gitkeep
